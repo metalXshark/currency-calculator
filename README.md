@@ -29,15 +29,18 @@ ExchangeRate-API — API для получения курсов валют.
 
 bash
 git clone https://github.com/your-username/currency-calculator.git
+
 Перейдите в директорию проекта:
 
 bash
 cd currency-calculator
+
 Установите зависимости:
 
 bash
 npm install
-Получите свой API ключ с ExchangeRate-API и замените его в коде компонента CurrencyCalculator.vue (вставьте ваш ключ в URL API-запроса):
+
+## Получите свой API ключ с ExchangeRate-API и замените его в коде компонента CurrencyCalculator.vue (вставьте ваш ключ в URL API-запроса):
 
 javascrip
 const apiKey = 'your-api-key-here'; // Замените на свой API ключ
